@@ -2,13 +2,14 @@ import  {Highlight, defaultProps, themes } from 'prism-react-renderer'
 
 const Code = ({ children }) => {
   return (
-    <Highlight {...defaultProps} theme={themes.nightOwlLight} code={children} language="jsx">
+    <Highlight {...defaultProps} theme={themes.oneDark} code={children} language="tsx">
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre
-          className={`${className} whitespace-pre-wrap col-span-3 p-16 overflow-auto bg-white h-full`}
+          className={`${className} whitespace-pre-wrap col-span-3 p-16 overflow-auto bg-black h-full`}
           style={{
             ...style,
-            fontSize: 12,
+            fontSize: 16, // 12,
+            // bgColor: '#222222',
           }}>
           {tokens.map((line, i) => (
             <div key={i} {...getLineProps({ line, key: i })}>
