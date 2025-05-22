@@ -8,7 +8,7 @@ const Footer = () => (
   <footer className="p-4 flex items-center justify-between w-full bg-darkgray z-10 relative">
     <a href="https://threedgarden.com/#gltfjsx" target="_blank" rel="noreferrer">
       {/* <Logo /> */}
-      🥕 ThreeD Garden: GLB-to-TSX Generator
+      🥕 ThreeD Garden: GLB-to-TSX Converter
     </a>
     <p className="text-xs">
       Made by{' '}
