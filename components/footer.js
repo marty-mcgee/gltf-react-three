@@ -1,23 +1,25 @@
 import { GitHub, Logo } from './icons'
+import { Logo } from 'threed-garden'
 
 const Footer = () => (
   <footer className="p-4 flex items-center justify-between w-full bg-darkgray z-10 relative">
-    <a href="https://pmnd.rs/" target="_blank" rel="noreferrer">
-      <Logo />
+    <a href="https://threedgarden.com/#glbtsx" target="_blank" rel="noreferrer">
+      {/* <Logo /> */}
+      🥕 ThreeD Garden: GLB-to-TSX Generator
     </a>
     <p className="text-xs">
       Made by{' '}
       <a
         className="underline hover:text-blue-600"
-        href="https://twitter.com/NikkitaFTW"
+        href="https://github.com/marty-mcgee/threed-garden"
         target="_blank"
         rel="noreferrer">
-        @NikkitaFTW
+        @marty-mcgee
       </a>{' '}
       &{' '}
       <a
         className="underline hover:text-blue-600"
-        href="https://github.com/pmndrs/gltf-react-three/graphs/contributors">
+        href="https://github.com/marty-mcgee/gltf-react-three/graphs/contributors">
         contributors
       </a>{' '}
       inspired by the{' '}
@@ -25,7 +27,7 @@ const Footer = () => (
         gltfjsx cli
       </a>
     </p>
-    <a href="https://github.com/pmndrs/gltf-react-three/" target="_blank" rel="noreferrer">
+    <a href="https://github.com/marty-mcgee/gltf-react-three/" target="_blank" rel="noreferrer">
       <GitHub />
     </a>
   </footer>

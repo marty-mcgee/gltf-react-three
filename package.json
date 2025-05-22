@@ -1,6 +1,6 @@
 {
-  "name": "gltf-react-three",
-  "version": "0.1.1",
+  "name": "threed-gltf-react-three",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -25,7 +25,9 @@
     "three": "^0.163.0",
     "three-stdlib": "^2.29.6",
     "zstddec": "^0.1.0",
-    "zustand": "^4.5.2"
+    "zustand": "^4.5.2",
+    
+    "react-resizable-panels": "3.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
