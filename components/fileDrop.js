@@ -16,7 +16,8 @@ const FileDrop = ({ onDrop, useSuzanne }) => {
           {/* Drag {"'"}n{"'"}  */}
           Drop your GLB or GLTF file {" "}
           <button className="text-blue-600">here</button>
-          {" "} or open the demo file {" "}
+          <br/>
+          or open the demo file {" "}
           <button className="text-blue-600" onClick={useSuzanne}>
             Chimpanzee
           </button>
