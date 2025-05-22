@@ -1,5 +1,5 @@
 import { GitHub, Logo } from './icons'
-import { Logo } from 'threed-garden'
+// import { Logo } from 'threed-garden'
 
 const Footer = () => (
   <footer className="p-4 flex items-center justify-between w-full bg-darkgray z-10 relative">
